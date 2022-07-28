@@ -3,6 +3,8 @@
 ## What this code does?
 This repository is for creating static maps in R showing the geographic distribution of community-level graduation rate, college enrollment rate, college persistence rate, college completion rate, and the Postsecondary Attainment Index (an estimate of the proportion of freshman that will have a college degree within 10 years).
 
+Code will be able to create maps like the one [here](https://github.com/Thrive-Data/Community-level-CPS-School-Data/blob/main/hs_graduation_community.pdf).
+
 ## Why is this useful?
 Typically, publically available data on educational outcomes are either at the district-level or at the school-level; see Chicago Public Schools (CPS) data [here](https://www.cps.edu/about/district-data/). But at CPS (and many other large urban school districts), students regularly attend schools that are outside of their community. This means that if we only have school-level outcomes, we can only imperfectly attribute them to the community of the school. This means 1) we are limited to an imperfect estimate of community level outcomes like graduation rate by aggregating and taking weighted means of schools within that community (meaning we have an imperfect and potenitally biased meansure); and 2) this limits our ability to understand correlates of community-level outcomes. 
 
