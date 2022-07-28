@@ -12,33 +12,21 @@ library(dplyr)
 library(data.table)
 library(ggplot2)
 library(tmap)
-library(leaflet)
 library(rgeos)
 library(rgdal)
-library(stringr)
-library(readxl)
 library(sp)
 library(raster)
-library(stringr)
-library(googlesheets4)
-
 library(sf)
-library(ggplot2)
-library(tidycensus)
 library(stringr)
-
 library(tidyverse)
 library(reshape2)
-
-library(survey)
-library(srvyr)
+library(googlesheets4)
 
 ### Load Community Shapefile
 community<-readOGR(dsn=".",layer="community")
 
-### Import CPS Data (copied to a google sheet)
+### Import CPS Data (copied to a google sheet from here: https://toandthrough.uchicago.edu/tool/cps/comm/2021/#/milestones)
 data<-read_sheet("https://docs.google.com/spreadsheets/d/1cioyQs6o3Dh1wAu7KOcYw6tVDrUenEq5t8p2oDe_Dp4/edit#gid=0",sheet=1)
-
 
 ################################
 ### Clean Data and Merge to Communities
